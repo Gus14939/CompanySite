@@ -21,3 +21,6 @@ is a component at the top of the website
         </ul>
     </header>
 ```
+
+## Footer
+we have added our footer with social media and contact information
