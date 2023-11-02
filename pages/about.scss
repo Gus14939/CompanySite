@@ -1,0 +1,19 @@
+@import "../style";
+
+section{
+    padding: 10px 10%;
+    display: flex;
+    align-items:self-start;
+    .main_image{
+        margin-right:10px;
+        img{
+            width: 200px;
+        }
+    }
+    .details{
+        font-size: .5em;
+        p:first-child{
+            margin-top: 0;
+        }
+    }
+}

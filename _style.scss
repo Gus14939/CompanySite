@@ -1,0 +1,35 @@
+@import "./styles/defaults/colors";
+@import "./styles/defaults/breakpoint";
+@import "./styles/components/header";
+@import "./styles/components/footer";
+
+body{
+    margin: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    width: vw;
+}
+
+@media screen and (min-width:600px){
+    header{
+        .logo{
+            padding-bottom: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            img{
+                width: 220px;
+            }
+            p{
+                margin: 0 10% 0 0;
+                padding: 0;
+                font-size: 1.6em;
+            }
+        }
+        ul{
+            li{
+                font-size: 1.1em;
+            }
+        }    
+    }
+}
