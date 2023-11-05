@@ -1,0 +1,148 @@
+header {
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 30px;
+}
+header .logo img {
+  width: 150px;
+}
+header p {
+  margin: 5px 0px 20px;
+  font-size: 1em;
+  color: lightslategray;
+}
+header ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style-type: none;
+  justify-content: space-evenly;
+}
+header ul li {
+  margin: 0px 10px;
+  font-size: 0.6em;
+}
+header ul li a {
+  text-decoration: none;
+  color: dodgerblue;
+}
+
+footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0px;
+  padding: 10px 0px;
+  background: white;
+  z-index: 1;
+}
+footer ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+}
+footer ul li {
+  margin: 0px 10px;
+  font-size: 1em;
+}
+footer ul li a {
+  text-decoration: none;
+  color: dodgerblue;
+}
+footer p {
+  margin: 5px 0px;
+  padding: 0;
+  font-size: 0.4em;
+  text-align: center;
+  color: lightslategray;
+}
+
+body {
+  margin: 0;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 30px;
+  width: vw;
+}
+
+@media screen and (min-width: 600px) {
+  header .logo {
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  header .logo img {
+    width: 220px;
+  }
+  header .logo p {
+    margin: 0 10% 0 0;
+    padding: 0;
+    font-size: 1.6em;
+  }
+  header ul li {
+    font-size: 1.1em;
+  }
+}
+main .forms {
+  width: 50%;
+  margin: 10px auto;
+}
+main .forms form div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+@media screen and (min-width: 600px) {
+  main .forms form div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+}
+main .forms form div label {
+  font-size: 0.5em;
+  margin: 10px 0px 5px;
+}
+main .forms form div input {
+  width: 100%;
+  border-top: 0px;
+  border-right: 0px;
+  border-left: 0px;
+  margin-bottom: 5px;
+  border-bottom: 1px solid #aaa;
+}
+@media screen and (min-width: 600px) {
+  main .forms form div input {
+    width: 90%;
+  }
+}
+main .forms form div textarea {
+  width: 100%;
+  background-color: #F8F8F8;
+  border-top: 1px solid #ffe;
+  border-right: 1px solid #ffe;
+  border-left: 1px solid #ffe;
+  border-bottom: 1px solid #aaa;
+  resize: none;
+}
+@media screen and (min-width: 600px) {
+  main .forms form div textarea {
+    width: 90%;
+  }
+}
+main .forms form div button {
+  margin-top: 20px;
+  width: 100%;
+  height: 3em;
+  background-color: #eee;
+  border: none;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+@media screen and (min-width: 600px) {
+  main .forms form div button {
+    margin: 20px auto;
+    width: 60%;
+  }
+}/*# sourceMappingURL=contact.css.map */
